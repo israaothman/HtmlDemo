@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* universal selector  */
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        /* element name as a selector  */
+        p {
+            background-color: grey;
+            color: yellow;
+
+        }
+
+
+        /* class selector */
+        .bigBlue {
+            font-size: x-large;
+            color: blue;
+        }
+
+        /* id selector */
+        #thirdP {
+            font-weight: bold;
+            color: brown;
+        }
+
+        p {
+            color: blueviolet;
+        }
+
+        /* inline ----  id class elementOrder   */
+
+        span {
+            background-color: aquamarine;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- inline style -->
+        <!-- <p style="background-color: gray; color:pink">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum hic minus enim, explicabo harum labore reiciendis ab, ex fugiat dolorum neque, voluptas at. Animi molestiae veritatis ea magnam commodi repudiandae?</p>
+         <p style="background-color: gray; color:pink" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure deleniti impedit labore aut quis consectetur. Unde pariatur, cupiditate officia rerum distinctio ut qui similique. Cum inventore iusto libero officiis sed.</p>
+        -->
+
+        <p id="firstP" style="color: aquamarine;">Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Ab, libero. Itaque
+            eaque quas magnam nemo consectetur deleniti dicta quos, <br> beatae eos ratione fugiat officiis optio
+            facilis aut similique, dolorem numquam.</p>
+        <p class="bigBlue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, libero. Itaque eaque quas
+            magnam nemo consectetur deleniti dicta quos, beatae eos ratione fugiat officiis optio facilis aut similique,
+            dolorem numquam.</p>
+        <p id="thirdP" class="bigBlue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ducimus.
+            Libero eveniet, beatae voluptatibus cumque illum soluta praesentium odio, distinctio ab tempore esse magni
+            vel labore asperiores? Suscipit, quos dolorum.</p>
+        <p class="bigBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsum iusto tenetur
+            obcaecati harum repellendus animi repudiandae voluptas totam inventore modi beatae sint esse velit rem
+            sapiente repellat, nisi nulla?</p>
+
+
+        <h2>Hello </h2>
+        <div>Welcome</div>
+
+
+
+    </main>
+    <footer>
+        <span class="spanFooter">test</span>
+        <a href="">Facebook</a>
+    </footer>
+</body>
+
+</html>

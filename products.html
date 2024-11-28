@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <!-- semantic tags => tags there names has a meaning  -->
+        <section>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>email</th>
+                        <th colspan="2">Full name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ahmad@gmail.com</td>
+                        <td>Ahmad</td>
+                        <td>omar</td>
+
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>alaa@gmail.com</td>
+                        <td>alaa</td>
+                        <td>hala</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th> head 1 </th>
+                        <td> body 1 1 </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="2"> head 2 </th>
+                        <td> body 1 2 </td>
+                    </tr>
+                    <tr>
+                        <td> body 2 2 </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <hr>
+        <br>
+        <br>
+        <section>
+            <form >
+              <fieldset>
+                <legend>Register Form</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="name">
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com">
+                <br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <br>
+
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" placeholder="00962">
+                <br>
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+                
+
+                <label for="male">Male</label>
+                <input type="radio" id="male"  name="gender">
+                <br>
+              </fieldset>
+              <fieldset>
+                <legend>Habits</legend>
+                <label for="foot">Football</label>
+                <input type="checkbox" id="foot" name="habits">
+
+                <label for="tenis">Tenis</label>
+                <input type="checkbox" id="tenis" name="habits">
+
+
+              </fieldset>
+              <fieldset>
+                <legend>Additional Information </legend>
+                <label for="">Country</label>
+                  <select name="" id=""> 
+                    <option value="">Jordan</option>
+                    <option value="">KSA</option>
+                    <option value="">UAE</option>
+                  </select>
+                <br>
+
+                <label for="">Image</label>
+                <input type="file" accept="Image/*">
+              </fieldset>
+
+              <textarea name="" id="" placeholder="opinion"> </textarea>
+
+              <input type="submit" value="Click">
+            </form>
+
+
+
+        </section>
+        <section>
+            <video controls>
+                <source src="mov_bbb.mp4"> </source>
+                Your browser does not support the audio tag.
+            </video>
+
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio>
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU?si=afDyQe6x2zvNcrjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </footer>
+</body>
+
+</html>
